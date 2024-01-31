@@ -2,17 +2,14 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    background: #530071; /* background page color */
+    color: white; /* change text color */
 }
 
 header {
-    background-color: #f5f5f5;
+    background-color: #f5f5f5; /* give the head a different color */
     padding: 20px;
     text-align: center;
-}
-
-h1 {
-    color: #333;
-    font: bold;
 }
 
 nav {
@@ -26,22 +23,19 @@ nav a {
     font-weight: bold;
 }
 
-#edu,
-#info,
-#hobbies {
+.info {
     margin-top: 2vh;
-    text-align: center;
+    text-align: center; /* center alignment */
 }
 
 #list {
     display: flex;
-    justify-content: center;
+    justify-content: center; /* center alignment */
 }
 
 ol {
     list-style-type: decimal;
     margin-left: 20px;
-    color: #333;
 }
 
 li {

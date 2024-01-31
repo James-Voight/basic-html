@@ -5,20 +5,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index.css">
     <title>About Me</title>
+
+    <!-- embedded styling -->
+    <style>
+        h1 {
+            color: #333; /* takes over the body styling from the file */
+            font: bold;
+        }
+
+        p {
+            font-size: large; /* differnt font size */
+        }
+    </style>
 </head>
 <body>
     <header>
         <h1>James Voight</h1>
 
         <!-- link to my email and an external site which is github in this case -->
-        <nav>
+        <nav style="margin-top: 1vh;"> <!-- inline styling -->
             <a href="mailto:jpvoight@liberty.edu">Send an email</a>
             <a href="https://github.com/James-Voight" target="_blank">New school github</a> <!--new github account mainly for class projects -->
         </nav>
     </header>
 
     <div>
-        <div id="edu">
+        <div class="info">
             <h2>Education</h2>
             <br>
             <p>I currently am a 2nd year attending Liberty University
@@ -29,7 +41,7 @@
 
         <hr>
 
-        <div id="info">
+        <div class="info">
             <h2>General Information</h2>
             <br>
             <p>I was born in Minneapolis, Minnesota and eventually moved to 
@@ -40,7 +52,7 @@
 
         <hr>
 
-        <div id="hobbies">
+        <div class="info">
             <h2>Hobbies</h2>
             <br>
             <div id="list">
